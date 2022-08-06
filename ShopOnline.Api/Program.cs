@@ -1,12 +1,18 @@
 ﻿using ShopOnline.Api.Data;
 using Microsoft.EntityFrameworkCore;
+using ShopOnline.Api.Repositories;
+using Microsoft.Net.Http.Headers;
+using ShopOnline.Api.Repositories.Contracts;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddDbContextPool<ShopOnlineDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineConnection")));
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 // Configure the HTTP request pipeline.
 var app = builder.Build();
 
@@ -14,7 +20,9 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    //app.UseHsts();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

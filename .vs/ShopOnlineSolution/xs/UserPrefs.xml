@@ -1,24 +1,26 @@
 ﻿<Properties StartupConfiguration="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}|Default">
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Api/Program.cs">
     <Files>
-      <File FileName="ShopOnline.Api/Entities/User.cs" Line="11" Column="1" />
-      <File FileName="ShopOnline.Api/Data/ShopOnlineDBContext.cs" Line="13" Column="75" />
-      <File FileName="ShopOnline.Api/Program.cs" Line="10" Column="40" />
-      <File FileName="ShopOnline.Api/Migrations/20220805081011_InitialCreate.cs" Line="1" Column="1" />
       <File FileName="ShopOnline.Api/Entities/Product.cs" Line="1" Column="1" />
-      <File FileName="ShopOnline.Api/Entities/ProductCategory.cs" Line="1" Column="1" />
+      <File FileName="ShopOnline.Models/Dtos/ProductDto.cs" Line="15" Column="2" />
+      <File FileName="ShopOnline.Api/Program.cs" Line="23" Column="7" />
+      <File FileName="ShopOnline.Api/Controllers/ProductController.cs" Line="30" Column="38" />
+      <File FileName="ShopOnline.Api/Extensions/DtoConversions.cs" Line="23" Column="33" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShopOnlineSolution" expanded="True">
             <Node name="ShopOnline.Api" expanded="True">
-              <Node name="Data" expanded="True" />
+              <Node name="Controllers" expanded="True" />
               <Node name="Entities" expanded="True" />
-              <Node name="Migrations" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Repositories" expanded="True" />
             </Node>
-            <Node name="ShopOnline.Web" expanded="True" />
+            <Node name="ShopOnline.Models" expanded="True">
+              <Node name="Dtos" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -27,12 +29,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

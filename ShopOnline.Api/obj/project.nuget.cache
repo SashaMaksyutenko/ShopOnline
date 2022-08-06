@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NA3nGhtllAFhz8PzCj9KkxxrgwTwjFtcrn4CeHa3LgheI5XVPGiL6g9cbgpKl62VdQ7yVkM0v471typcUM8wCQ==",
+  "dgSpecHash": "Y43A0EIYI8ymb92dri4qREEK3Kgv6NS+wU3ZY3kZdrr+v+nLpMb9WSk4sopnLS4t/uI53FRda/PFXGp9vbxCnw==",
   "success": true,
   "projectFilePath": "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/ShopOnline.Api.csproj",
   "expectedPackageFiles": [
@@ -31,8 +31,12 @@
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.8.0/microsoft.identitymodel.protocols.openidconnect.6.8.0.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.identitymodel.tokens/6.8.0/microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/Users/sashamaksyutenko/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/sashamaksyutenko/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "/Users/sashamaksyutenko/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "/Users/sashamaksyutenko/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/system.configuration.configurationmanager/4.7.0/system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using ShopOnline.Api.Entities;
+using Microsoft.Extensions.DependencyInjection;
+using ShopOnline.Api.Data;
 
 namespace ShopOnline.Api.Data
 {

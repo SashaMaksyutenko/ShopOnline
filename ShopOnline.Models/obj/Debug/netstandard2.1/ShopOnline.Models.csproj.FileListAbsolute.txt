@@ -1,0 +1,10 @@
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/bin/Debug/netstandard2.1/ShopOnline.Models.deps.json
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/bin/Debug/netstandard2.1/ShopOnline.Models.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/bin/Debug/netstandard2.1/ShopOnline.Models.pdb
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/obj/Debug/netstandard2.1/ShopOnline.Models.csproj.AssemblyReference.cache
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/obj/Debug/netstandard2.1/ShopOnline.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/obj/Debug/netstandard2.1/ShopOnline.Models.AssemblyInfoInputs.cache
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/obj/Debug/netstandard2.1/ShopOnline.Models.AssemblyInfo.cs
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/obj/Debug/netstandard2.1/ShopOnline.Models.csproj.CoreCompileInputs.cache
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/obj/Debug/netstandard2.1/ShopOnline.Models.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/obj/Debug/netstandard2.1/ShopOnline.Models.pdb

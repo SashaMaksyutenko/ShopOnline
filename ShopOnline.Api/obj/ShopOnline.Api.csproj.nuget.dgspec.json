@@ -25,7 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/ShopOnline.Models.csproj": {
+                "projectPath": "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/ShopOnline.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -38,6 +42,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.7, )"
@@ -47,6 +57,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.7, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -65,6 +87,59 @@
               "privateAssets": "none"
             },
             "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/ShopOnline.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/ShopOnline.Models.csproj",
+        "projectName": "ShopOnline.Models",
+        "projectPath": "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/ShopOnline.Models.csproj",
+        "packagesPath": "/Users/sashamaksyutenko/.nuget/packages/",
+        "outputPath": "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sashamaksyutenko/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
