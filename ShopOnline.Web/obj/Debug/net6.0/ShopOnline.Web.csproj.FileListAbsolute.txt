@@ -52,6 +52,8 @@
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.SystemEvents.dll
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/mscorlib.dll
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/netstandard.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/ShopOnline.Models.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/ShopOnline.Models.pdb
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/ShopOnline.Web.dll
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/ShopOnline.Web.pdb
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.AppContext.dll
@@ -287,6 +289,7 @@
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.IO.Compression.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.ServiceModel.Web.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/dotnet.6.0.6.2ir9n2ipug.js.gz
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/ShopOnline.Models.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.Net.Http.Json.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/Microsoft.Win32.Primitives.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.Linq.Queryable.dll.gz
@@ -395,6 +398,7 @@
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.Security.Cryptography.X509Certificates.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.ComponentModel.Primitives.dll.gz
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/ShopOnline.Models.pdb.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.Collections.Immutable.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/System.Text.RegularExpressions.dll.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/Microsoft.AspNetCore.Metadata.dll.gz
@@ -665,6 +669,8 @@
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/icudt_CJK.dat
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/icudt_EFIGS.dat
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/icudt_no_CJK.dat
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/ShopOnline.Models.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/ShopOnline.Models.pdb
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/ShopOnline.Web.csproj.AssemblyReference.cache
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/ShopOnline.Web.GeneratedMSBuildEditorConfig.editorconfig
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/ShopOnline.Web.AssemblyInfoInputs.cache
@@ -890,6 +896,8 @@
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/z8aJJS0I.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/omkCYymA.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/eFdFHQpU.gz
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/csDHlnWF.gz
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/S1HzDhuZ.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/MjLYD3Kx.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/t8hIHb7I.gz
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/VHFB+UdR.gz

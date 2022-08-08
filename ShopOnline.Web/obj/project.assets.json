@@ -900,6 +900,16 @@
             "rid": "win"
           }
         }
+      },
+      "ShopOnline.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/ShopOnline.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopOnline.Models.dll": {}
+        }
       }
     },
     "net6.0/browser-wasm": {
@@ -1694,6 +1704,16 @@
         },
         "runtime": {
           "lib/netcoreapp3.0/System.Windows.Extensions.dll": {}
+        }
+      },
+      "ShopOnline.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/ShopOnline.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopOnline.Models.dll": {}
         }
       }
     }
@@ -3436,6 +3456,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ShopOnline.Models/1.0.0": {
+      "type": "project",
+      "path": "../ShopOnline.Models/ShopOnline.Models.csproj",
+      "msbuildProject": "../ShopOnline.Models/ShopOnline.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3444,7 +3469,8 @@
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 6.0.6",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.7",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.7"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.7",
+      "ShopOnline.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3471,7 +3497,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/ShopOnline.Models.csproj": {
+              "projectPath": "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Models/ShopOnline.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

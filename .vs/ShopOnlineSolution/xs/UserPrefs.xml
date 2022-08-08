@@ -1,25 +1,27 @@
-﻿<Properties StartupConfiguration="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}|Default">
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Safari.app" />
+﻿<Properties StartupConfiguration="Несколько проектов">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Api/Program.cs">
     <Files>
-      <File FileName="ShopOnline.Api/Entities/Product.cs" Line="1" Column="1" />
-      <File FileName="ShopOnline.Models/Dtos/ProductDto.cs" Line="15" Column="2" />
-      <File FileName="ShopOnline.Api/Program.cs" Line="23" Column="7" />
-      <File FileName="ShopOnline.Api/Controllers/ProductController.cs" Line="30" Column="38" />
-      <File FileName="ShopOnline.Api/Extensions/DtoConversions.cs" Line="23" Column="33" />
+      <File FileName="ShopOnline.Web/Services/ProductService.cs" Line="31" Column="1" />
+      <File FileName="ShopOnline.Web/Pages/Products.razor" Line="28" Column="59" />
+      <File FileName="ShopOnline.Models/Dtos/ProductDto.cs" Line="17" Column="1" />
+      <File FileName="ShopOnline.Api/Entities/Product.cs" Line="21" Column="1" />
+      <File FileName="ShopOnline.Api/Program.cs" Line="28" Column="72" />
+      <File FileName="ShopOnline.Web/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShopOnlineSolution" expanded="True">
             <Node name="ShopOnline.Api" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="Entities" expanded="True" />
-              <Node name="Extensions" expanded="True" />
-              <Node name="Repositories" expanded="True" />
+              <Node name="Migrations" expanded="True" />
             </Node>
-            <Node name="ShopOnline.Models" expanded="True">
-              <Node name="Dtos" expanded="True" />
+            <Node name="ShopOnline.Web" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Contracts" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -29,11 +31,19 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Safari.app" />
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Несколько проектов" Name="Несколько проектов">
+      <Items>
+        <StartupItem ItemId="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}" ItemName="ShopOnline.Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{FDD70938-928A-4E52-A788-B77AE21227C0}" ItemName="ShopOnline.Web" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>
