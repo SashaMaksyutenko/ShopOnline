@@ -1,10 +1,34 @@
 ﻿<Properties StartupConfiguration="shop_online">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Api/Repositories/ShoppingCartRepository.cs">
+    <Files>
+      <File FileName="ShopOnline.Api/Repositories/ShoppingCartRepository.cs" Line="54" Column="31" />
+      <File FileName="ShopOnline.Api/Controllers/ShoppingCartController.cs" Line="98" Column="1" />
+      <File FileName="ShopOnline.Api/Entities/Product.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShopOnlineSolution" expanded="True">
+            <Node name="ShopOnline.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="Contracts" expanded="True" />
+                <Node name="ShoppingCartRepository.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="ShopOnline.Models" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <Debugger.DebugSourceFolders />
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="shop_online" Name="shop_online">
@@ -14,31 +38,9 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Web/Pages/Products.razor">
-    <Files>
-      <File FileName="ShopOnline.Api/Program.cs" Line="5" Column="1" />
-      <File FileName="ShopOnline.Web/Pages/ProductsBase.cs" Line="20" Column="1" />
-      <File FileName="ShopOnline.Web/Program.cs" Line="15" Column="1" />
-      <File FileName="ShopOnline.Web/Pages/Products.razor" Line="27" Column="3" />
-      <File FileName="ShopOnline.Web/Pages/DisplayProducts.razor" Line="19" Column="2" />
-      <File FileName="ShopOnline.Web/Pages/DisplayProductsBase.cs" Line="14" Column="1" />
-    </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="ShopOnlineSolution" expanded="True">
-            <Node name="ShopOnline.Web" expanded="True">
-              <Node name="Pages" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
