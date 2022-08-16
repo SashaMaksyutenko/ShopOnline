@@ -9,8 +9,10 @@ namespace ShopOnline.Web.Pages
     public class ProductsBase:ComponentBase
     {
         [Inject]
-       public IProductService productService { get; set; }
-       public IEnumerable<ProductDto> Products { get; set; }
+       public IProductService ProductService { get; set; }
+        [Inject]
+        public IShoppingCartService ShoppingCartService { get; set; }
+        public IEnumerable<ProductDto> Products { get; set; }
         [Inject]
         public NavigationManager NavigationManager { get; set; }
         public string ErrorMessage { get; set; }
@@ -19,7 +21,10 @@ namespace ShopOnline.Web.Pages
         {
             try
             {
-                Products = await productService.GetItems();
+                Products = await ProductService.GetItems();
+                var shoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
+                var totalQty = shoppingCartItems.Sum(i => i.Qty);
+                ShoppingCartService.RaisedEventOnShoppingCartChanged(totalQty);
             }
             catch (Exception ex)
             {

@@ -1,12 +1,10 @@
-﻿function MakeUpdadeQtyButtonVisible(id, visible)
-{
+﻿function MakeUpdateQtyButtonVisible(id, visible) {
     const updateQtyButton = document.querySelector("button[data-itemId='" + id + "']");
+
     if (visible == true) {
         updateQtyButton.style.display = "inline-block";
     }
-    else
-    {
+    else {
         updateQtyButton.style.display = "none";
-
     }
 }

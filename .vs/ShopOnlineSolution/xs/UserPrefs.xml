@@ -1,15 +1,14 @@
 ﻿<Properties StartupConfiguration="shop_online">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Web/Services/Contracts/IShoppingCartService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Web/Pages/ShoppingCart.razor">
     <Files>
       <File FileName="ShopOnline.Web/Pages/ShoppingCartBase.cs" Line="101" Column="44" />
-      <File FileName="ShopOnline.Web/Services/Contracts/IShoppingCartService.cs" Line="16" Column="1" />
-      <File FileName="ShopOnline.Web/Services/ShoppingCartService.cs" Line="1" Column="1" />
+      <File FileName="ShopOnline.Web/Services/ShoppingCartService.cs" Line="71" Column="72" />
       <File FileName="ShopOnline.Web/wwwroot/index.html" Line="1" Column="1" />
       <File FileName="ShopOnline.Web/wwwroot/js/ShoppingCartFunctions.js" Line="1" Column="1" />
+      <File FileName="ShopOnline.Api/Repositories/ShoppingCartRepository.cs" Line="46" Column="1" />
+      <File FileName="ShopOnline.Web/Pages/ShoppingCart.razor" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,6 +16,10 @@
           <Node name="ShopOnlineSolution" expanded="True">
             <Node name="ShopOnline.Api" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="Contracts" expanded="True" />
+              </Node>
             </Node>
             <Node name="ShopOnline.Models" expanded="True" />
             <Node name="ShopOnline.Web" expanded="True">
@@ -24,9 +27,7 @@
                 <Node name="ShoppingCart.razor" expanded="True" />
               </Node>
               <Node name="Services" expanded="True">
-                <Node name="Contracts" expanded="True">
-                  <Node name="IShoppingCartService.cs" selected="True" />
-                </Node>
+                <Node name="Contracts" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
                 <Node name="js" expanded="True" />
@@ -40,6 +41,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,22 +1,20 @@
-﻿using System;
-using System.Net.Http.Json;
-using System.Text;
+﻿using System.Net.Http.Json;
 using Newtonsoft.Json;
 using ShopOnline.Models;
 using ShopOnline.Models.Dtos;
 using ShopOnline.Web.Services.Contracts;
+using System.Text;
 
 namespace ShopOnline.Web.Services
 {
     public class ShoppingCartService:IShoppingCartService
     {
         private readonly HttpClient httpClient;
-
+        public event Action<int> onShoppingCartChanged;
         public ShoppingCartService(HttpClient httpClient)
         {
             this.httpClient = httpClient;
         }
-
         public async Task<CartItemDto> AddItem(CartItemToAddDto cartItemToAddDto)
         {
             try
@@ -83,7 +81,13 @@ namespace ShopOnline.Web.Services
                 throw;
             }
         }
-
+        public void RaisedEventOnShoppingCartChanged(int totalQty)
+        {
+            if(onShoppingCartChanged!=null)
+            {
+                onShoppingCartChanged.Invoke(totalQty);
+            }
+        }
         public async Task<CartItemDto> UpdateQty(CartItemQtyUpdateDto cartItemQtyUpdateDto)
         {
             try
