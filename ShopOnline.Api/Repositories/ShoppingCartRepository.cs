@@ -22,22 +22,26 @@ namespace ShopOnline.Api.Repositories
         } 
         public async Task<CartItem> AddItem(CartItemToAddDto cartItemToAddDto)
         {
-            var item = await (from product in this.shopOnlineDBContext.Products
-                              where product.Id == cartItemToAddDto.ProductId
-                              select new CartItem
-                              {
-                                  CartId = cartItemToAddDto.CartId,
-                                  ProductId = product.Id,
-                                  Qty = cartItemToAddDto.Qty,
-
-                              }).SingleOrDefaultAsync();
-            if (item!=null)
+            if(await CartItemExists(cartItemToAddDto.CartId, cartItemToAddDto.ProductId) == false)
             {
-                var result = await this.shopOnlineDBContext.CartItems.AddAsync(item);
-                await this.shopOnlineDBContext.SaveChangesAsync();
-                return result.Entity;
+                var item = await (from product in this.shopOnlineDBContext.Products
+                                  where product.Id == cartItemToAddDto.ProductId
+                                  select new CartItem
+                                  {
+                                      CartId = cartItemToAddDto.CartId,
+                                      ProductId = product.Id,
+                                      Qty = cartItemToAddDto.Qty,
+
+                                  }).SingleOrDefaultAsync();
+                if (item != null)
+                {
+                    var result = await this.shopOnlineDBContext.CartItems.AddAsync(item);
+                    await this.shopOnlineDBContext.SaveChangesAsync();
+                    return result.Entity;
+                }
             }
             return null;
+
         }
 
         public async Task<CartItem> DeleteItem(int id)
@@ -81,9 +85,16 @@ namespace ShopOnline.Api.Repositories
                           }).ToListAsync();
         }
 
-        public Task<CartItem> UpdateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto)
+        public async Task<CartItem> UpdateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto)
         {
-            throw new NotImplementedException();
+            var item = await this.shopOnlineDBContext.CartItems.FindAsync(id);
+            if(item!=null)
+            {
+                item.Qty = cartItemQtyUpdateDto.Qty;
+                await this.shopOnlineDBContext.SaveChangesAsync();
+                return item;
+            }
+            return null;
         }
     }
 }

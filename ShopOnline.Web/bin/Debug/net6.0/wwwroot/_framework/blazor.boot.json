@@ -45,6 +45,7 @@
       "Microsoft.JSInterop.dll": "sha256-WobL+r2zwB5FBTgS20yduagPN9b5O9KB59h+n2+ONDo=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-kyP+B3x4SLKMAQWP1uHn9V4Q5p3r69HPLhs8C3yxGMU=",
       "Microsoft.Win32.SystemEvents.dll": "sha256-56MWX7GCuiW+O0EPzkUo0jj6T\/mhpVB6x+UFQtaS2qE=",
+      "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
       "System.Configuration.ConfigurationManager.dll": "sha256-Rmj4lST8tNcZUOCtfg1W5eXbLHDjla1J99tqgWTMUNY=",
       "System.Drawing.Common.dll": "sha256-E+\/s4U4Xt\/iFr\/+Dd7ZSqXXAOJZKgnOAW4C5r7OPcHc=",
       "System.IdentityModel.Tokens.Jwt.dll": "sha256-sXPVBzH5GkrOxg71dclCkIUu1x2JTXiA7Pz\/bqxogtw=",
@@ -219,15 +220,15 @@
       "mscorlib.dll": "sha256-ghlJNtzzYlKIliGPuf0A0Yu6dmLycSx3F9uyeddFb\/g=",
       "netstandard.dll": "sha256-qpOz\/RBwhlIYfaE2GDEmjiproxkvSf2b9GeqHxvH+lg=",
       "System.Private.CoreLib.dll": "sha256-sfzSZ3YKC2rpF77TVOKLuPgQag93QXr9U4AUc9d\/LKA=",
-      "ShopOnline.Models.dll": "sha256-S8rXhGg8iGOuDnluNaSiecRs1IYfPXMYvJsh8Unefyw=",
-      "ShopOnline.Web.dll": "sha256-5A5N3poF8egM96BD8xHeRprZ+X3E9RnZ0ys0\/+WaDzk="
+      "ShopOnline.Models.dll": "sha256-X0Zy4d\/58N3wUqXUJ+6MItiyb\/EypaQu4vPibIlXWag=",
+      "ShopOnline.Web.dll": "sha256-PV6mVja4zHpfmBJnqvsx8D0qZBdW1Zd4VFy0LnQ3WqM="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ShopOnline.Models.pdb": "sha256-12VKJdJecAv+EF5cG63WnxomZD8fxweuzJcyaS0FAfg=",
-      "ShopOnline.Web.pdb": "sha256-sRZjmxIa9YiHOLW2rS5yZknpMI4bs5WBQOUXw3FCvc8="
+      "ShopOnline.Models.pdb": "sha256-j\/aBt36SNr3tATw1rhJkGh56BaaXkCu3O6IFJEs2V\/I=",
+      "ShopOnline.Web.pdb": "sha256-uuGMn+u1OTqU0s+nY9gg+7j3VuLeSr+Xy4s7fgn66o4="
     },
     "runtime": {
       "dotnet.6.0.5.ect37gg0ly.js": "sha256-783uOt0jgblQfP6Yz5TJeuW2xxtl6UHZQPngZtCz79U=",

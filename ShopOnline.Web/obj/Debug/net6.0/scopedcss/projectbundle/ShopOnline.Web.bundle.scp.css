@@ -116,6 +116,10 @@ lds-spinner[b-tbbgkiw99b] {
         opacity: 0;
     }
 }
+/* /Pages/ShoppingCart.razor.rz.scp.css */
+.update_qty[b-9qio32rw30] {
+display:none;
+}
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-q8i7l5485m] {
     position: relative;

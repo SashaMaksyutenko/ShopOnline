@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Components;
 using ShopOnline.Models.Dtos;
+using ShopOnline.Web.Services;
 using ShopOnline.Web.Services.Contracts;
 
 namespace ShopOnline.Web.Pages
@@ -10,9 +11,21 @@ namespace ShopOnline.Web.Pages
         [Inject]
        public IProductService productService { get; set; }
        public IEnumerable<ProductDto> Products { get; set; }
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
+        public string ErrorMessage { get; set; }
+
         protected override async Task OnInitializedAsync()
         {
-            Products = await productService.GetItems();
+            try
+            {
+                Products = await productService.GetItems();
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = ex.Message;
+
+            }
         }
         protected IOrderedEnumerable<IGrouping<int, ProductDto>> GetGroupedProductsByCategory()
         {
