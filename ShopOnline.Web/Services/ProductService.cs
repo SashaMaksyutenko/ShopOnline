@@ -1,11 +1,10 @@
-﻿using System;
-using System.Net.Http.Json;
+﻿using System.Net.Http.Json;
 using ShopOnline.Models.Dtos;
 using ShopOnline.Web.Services.Contracts;
 
 namespace ShopOnline.Web.Services
 {
-    public class ProductService:IProductService
+    public class ProductService : IProductService
     {
         private readonly HttpClient httpClient;
 
@@ -21,7 +20,7 @@ namespace ShopOnline.Web.Services
                 var response = await httpClient.GetAsync($"api/Product/{id}");
                 if (response.IsSuccessStatusCode)
                 {
-                    if(response.StatusCode==System.Net.HttpStatusCode.NoContent)
+                    if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
                     {
                         return default(ProductDto);
                     }
@@ -45,7 +44,7 @@ namespace ShopOnline.Web.Services
             try
             {
                 var response = await this.httpClient.GetAsync("api/Product");
-                    if (response.IsSuccessStatusCode)
+                if (response.IsSuccessStatusCode)
                 {
                     if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
                     {
@@ -53,7 +52,7 @@ namespace ShopOnline.Web.Services
                     }
                     return await response.Content.ReadFromJsonAsync<IEnumerable<ProductDto>>();
                 }
-                    else
+                else
                 {
                     var message = await response.Content.ReadAsStringAsync();
                     throw new Exception(message);
@@ -66,4 +65,3 @@ namespace ShopOnline.Web.Services
         }
     }
 }
-

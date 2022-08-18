@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ShopOnline.Api.Extensions;
 using ShopOnline.Api.Repositories.Contracts;
 using ShopOnline.Models;
 using ShopOnline.Models.Dtos;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace ShopOnline.Api.Controllers
 {
     [Route("api/[controller]")]
@@ -23,45 +18,47 @@ namespace ShopOnline.Api.Controllers
             this.shoppingCartRepository = shoppingCartRepository;
             this.productRepository = productRepository;
         }
+
         [HttpGet]
         [Route("{userId}/GetItems")]
-        public async Task<ActionResult<IEnumerable<CartItemDto>>>GetItems(int userId)
+        public async Task<ActionResult<IEnumerable<CartItemDto>>> GetItems(int userId)
         {
             try
             {
                 var cartItems = await this.shoppingCartRepository.GetItems(userId);
-                
-                    if(cartItems==null)
-                    {
+
+                if (cartItems == null)
+                {
                     return NoContent();
-                    }
+                }
                 var products = await this.productRepository.GetItems();
-                if (products==null)
+                if (products == null)
                 {
                     throw new Exception("No product exist in the system");
                 }
                 var cartItemsDto = cartItems.ConvertToDto(products);
                 return Ok(cartItemsDto);
-                
+
             }
             catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
+
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<CartItemDto>>GetItem(int id)
+        public async Task<ActionResult<CartItemDto>> GetItem(int id)
 
         {
             try
             {
                 var cartItem = await this.shoppingCartRepository.GetItem(id);
-                if(cartItem==null)
+                if (cartItem == null)
                 {
                     return NotFound();
                 }
                 var product = await productRepository.GetItem(cartItem.ProductId);
-                if(product==null)
+                if (product == null)
                 {
                     return NotFound();
                 }
@@ -74,13 +71,14 @@ namespace ShopOnline.Api.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
+
         [HttpPost]
         public async Task<ActionResult<CartItemDto>> PostItem([FromBody] CartItemToAddDto cartItemToAddDto)
         {
             try
             {
                 var newCartItem = await this.shoppingCartRepository.AddItem(cartItemToAddDto);
-                if(newCartItem==null)
+                if (newCartItem == null)
                 {
                     return NoContent();
                 }
@@ -90,7 +88,7 @@ namespace ShopOnline.Api.Controllers
                     throw new Exception($"Something went wrong when attempting to retrieve product (productId: {cartItemToAddDto.ProductId})");
                 }
                 var newCartItemDto = newCartItem.ConvertToDto(product);
-                return CreatedAtAction(nameof(GetItem), new { id = newCartItemDto.Id },newCartItemDto);
+                return CreatedAtAction(nameof(GetItem), new { id = newCartItemDto.Id }, newCartItemDto);
             }
             catch (Exception ex)
             {
@@ -98,25 +96,26 @@ namespace ShopOnline.Api.Controllers
 
             }
         }
+
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult<CartItemDto>>DeleteItem(int id)
+        public async Task<ActionResult<CartItemDto>> DeleteItem(int id)
         {
             try
             {
                 var cartItem = await this.shoppingCartRepository.DeleteItem(id);
-                if (cartItem==null)
+                if (cartItem == null)
                 {
                     return NotFound();
                 }
 
                 var product = await this.productRepository.GetItem(cartItem.ProductId);
-                if(product==null)
+                if (product == null)
                 {
                     return NotFound();
                 }
                 var cartItemDto = cartItem.ConvertToDto(product);
                 return Ok(cartItemDto);
-                
+
             }
             catch (Exception ex)
             {
@@ -124,13 +123,14 @@ namespace ShopOnline.Api.Controllers
 
             }
         }
+
         [HttpPatch("{id:int}")]
-        public async Task<ActionResult<CartItemDto>> UpadateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto)
+        public async Task<ActionResult<CartItemDto>> UpadateQty(int id, [FromBody] CartItemQtyUpdateDto cartItemQtyUpdateDto)
         {
             try
             {
                 var cartItem = await this.shoppingCartRepository.UpdateQty(id, cartItemQtyUpdateDto);
-                if(cartItem==null)
+                if (cartItem == null)
                 {
                     return NotFound();
                 }
@@ -146,4 +146,3 @@ namespace ShopOnline.Api.Controllers
         }
     }
 }
-

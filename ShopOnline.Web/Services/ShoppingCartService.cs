@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ShopOnline.Web.Services
 {
-    public class ShoppingCartService:IShoppingCartService
+    public class ShoppingCartService : IShoppingCartService
     {
         private readonly HttpClient httpClient;
         public event Action<int> onShoppingCartChanged;
@@ -20,9 +20,9 @@ namespace ShopOnline.Web.Services
             try
             {
                 var response = await httpClient.PostAsJsonAsync<CartItemToAddDto>("api/ShoppingCart", cartItemToAddDto);
-                    if (response.IsSuccessStatusCode)
+                if (response.IsSuccessStatusCode)
                 {
-                    if (response.StatusCode==System.Net.HttpStatusCode.NoContent)
+                    if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
                     {
                         return default(CartItemDto);
                     }
@@ -45,7 +45,7 @@ namespace ShopOnline.Web.Services
             try
             {
                 var response = await httpClient.DeleteAsync($"api/ShoppingCart/{id}");
-                if(response.IsSuccessStatusCode)
+                if (response.IsSuccessStatusCode)
                 {
                     return await response.Content.ReadFromJsonAsync<CartItemDto>();
                 }
@@ -83,7 +83,7 @@ namespace ShopOnline.Web.Services
         }
         public void RaisedEventOnShoppingCartChanged(int totalQty)
         {
-            if(onShoppingCartChanged!=null)
+            if (onShoppingCartChanged != null)
             {
                 onShoppingCartChanged.Invoke(totalQty);
             }
@@ -94,7 +94,7 @@ namespace ShopOnline.Web.Services
             {
                 var jsonRequest = JsonConvert.SerializeObject(cartItemQtyUpdateDto);
                 var content = new StringContent(jsonRequest, Encoding.UTF8, "application/json-patch+json");
-                var response =await httpClient.PatchAsync($"api/ShoppingCart/{cartItemQtyUpdateDto.CartItemId}", content);
+                var response = await httpClient.PatchAsync($"api/ShoppingCart/{cartItemQtyUpdateDto.CartItemId}", content);
                 if (response.IsSuccessStatusCode)
                 {
                     return await response.Content.ReadFromJsonAsync<CartItemDto>();
