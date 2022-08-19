@@ -1,5 +1,4 @@
-﻿using System;
-namespace ShopOnline.Models
+﻿namespace ShopOnline.Models
 {
     public class CartItemToAddDto
     {
@@ -8,4 +7,3 @@ namespace ShopOnline.Models
         public int Qty { get; set; }
     }
 }
-

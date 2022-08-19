@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ShopOnline.Api.Entities
@@ -19,4 +18,3 @@ namespace ShopOnline.Api.Entities
         public ProductCategory ProductCategory { get; set; }
     }
 }
-

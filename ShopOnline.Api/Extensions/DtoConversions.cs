@@ -1,5 +1,4 @@
-﻿using System;
-using ShopOnline.Api.Entities;
+﻿using ShopOnline.Api.Entities;
 using ShopOnline.Models.Dtos;
 
 namespace ShopOnline.Api.Extensions
@@ -76,4 +75,3 @@ namespace ShopOnline.Api.Extensions
 
     }
 }
-

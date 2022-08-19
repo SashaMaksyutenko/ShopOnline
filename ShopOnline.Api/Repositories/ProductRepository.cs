@@ -1,8 +1,8 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using ShopOnline.Api.Data;
 using ShopOnline.Api.Entities;
 using ShopOnline.Api.Repositories.Contracts;
+
 namespace ShopOnline.Api.Repositories
 {
     public class ProductRepository : IProductRepository
@@ -30,7 +30,7 @@ namespace ShopOnline.Api.Repositories
             var product = await shopOnlineDBContext.Products.FindAsync(id);
             return product;
         }
-    
+
         public async Task<IEnumerable<Product>> GetItems()
         {
             var products = await this.shopOnlineDBContext.Products.ToListAsync();
@@ -38,4 +38,3 @@ namespace ShopOnline.Api.Repositories
         }
     }
 }
-

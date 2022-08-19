@@ -1,5 +1,4 @@
-﻿using System;
-using ShopOnline.Api.Entities;
+﻿using ShopOnline.Api.Entities;
 namespace ShopOnline.Api.Repositories.Contracts
 {
     public interface IProductRepository
@@ -8,7 +7,5 @@ namespace ShopOnline.Api.Repositories.Contracts
         Task<IEnumerable<ProductCategory>> GetCategories();
         Task<Product> GetItem(int id);
         Task<ProductCategory> GetCategory(int id);
-
     }
 }
-

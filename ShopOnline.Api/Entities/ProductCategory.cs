@@ -1,5 +1,4 @@
-﻿using System;
-namespace ShopOnline.Api.Entities
+﻿namespace ShopOnline.Api.Entities
 {
     public class ProductCategory
     {
@@ -7,4 +6,3 @@ namespace ShopOnline.Api.Entities
         public string Name { get; set; }
     }
 }
-

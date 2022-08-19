@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using ShopOnline.Api.Data;
 using ShopOnline.Api.Entities;
 using ShopOnline.Api.Repositories.Contracts;
@@ -8,7 +7,7 @@ using ShopOnline.Models.Dtos;
 
 namespace ShopOnline.Api.Repositories
 {
-    public class ShoppingCartRepository:IShoppingCartRepository 
+    public class ShoppingCartRepository : IShoppingCartRepository
     {
         private readonly ShopOnlineDBContext shopOnlineDBContext;
 
@@ -16,13 +15,13 @@ namespace ShopOnline.Api.Repositories
         {
             this.shopOnlineDBContext = shopOnlineDBContext;
         }
-        private async Task<bool>CartItemExists(int cartId, int productId)
+        private async Task<bool> CartItemExists(int cartId, int productId)
         {
             return await this.shopOnlineDBContext.CartItems.AnyAsync(c => c.CartId == cartId && c.ProductId == productId);
-        } 
+        }
         public async Task<CartItem> AddItem(CartItemToAddDto cartItemToAddDto)
         {
-            if(await CartItemExists(cartItemToAddDto.CartId, cartItemToAddDto.ProductId) == false)
+            if (await CartItemExists(cartItemToAddDto.CartId, cartItemToAddDto.ProductId) == false)
             {
                 var item = await (from product in this.shopOnlineDBContext.Products
                                   where product.Id == cartItemToAddDto.ProductId
@@ -47,7 +46,7 @@ namespace ShopOnline.Api.Repositories
         public async Task<CartItem> DeleteItem(int id)
         {
             var item = await this.shopOnlineDBContext.CartItems.FindAsync(id);
-            if(item !=null)
+            if (item != null)
             {
                 this.shopOnlineDBContext.CartItems.Remove(item);
                 await this.shopOnlineDBContext.SaveChangesAsync();
@@ -88,7 +87,7 @@ namespace ShopOnline.Api.Repositories
         public async Task<CartItem> UpdateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto)
         {
             var item = await this.shopOnlineDBContext.CartItems.FindAsync(id);
-            if(item!=null)
+            if (item != null)
             {
                 item.Qty = cartItemQtyUpdateDto.Qty;
                 await this.shopOnlineDBContext.SaveChangesAsync();
@@ -98,4 +97,3 @@ namespace ShopOnline.Api.Repositories
         }
     }
 }
-

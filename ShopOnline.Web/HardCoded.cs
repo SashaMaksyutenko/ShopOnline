@@ -1,5 +1,4 @@
-﻿using System;
-namespace ShopOnline.Web
+﻿namespace ShopOnline.Web
 {
     public class HardCoded
     {
@@ -7,4 +6,3 @@ namespace ShopOnline.Web
         public const int CartId = 1;
     }
 }
-

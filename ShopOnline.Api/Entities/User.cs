@@ -1,5 +1,4 @@
-﻿using System;
-namespace ShopOnline.Api.Entities
+﻿namespace ShopOnline.Api.Entities
 {
     public class User
     {
@@ -7,4 +6,3 @@ namespace ShopOnline.Api.Entities
         public string UserName { get; set; }
     }
 }
-

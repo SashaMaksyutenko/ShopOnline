@@ -1,5 +1,4 @@
-﻿using System;
-using ShopOnline.Models.Dtos;
+﻿using ShopOnline.Models.Dtos;
 
 namespace ShopOnline.Web.Services.Contracts
 {
@@ -9,4 +8,3 @@ namespace ShopOnline.Web.Services.Contracts
         Task<ProductDto> GetItem(int id);
     }
 }
-
