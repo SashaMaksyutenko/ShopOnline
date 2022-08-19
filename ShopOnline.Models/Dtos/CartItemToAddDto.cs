@@ -1,5 +1,4 @@
-﻿using System;
-namespace ShopOnline.Models
+﻿namespace ShopOnline.Models
 {
     public class CartItemToAddDto
     {

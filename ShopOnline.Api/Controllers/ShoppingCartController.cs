@@ -25,18 +25,18 @@ namespace ShopOnline.Api.Controllers
         }
         [HttpGet]
         [Route("{userId}/GetItems")]
-        public async Task<ActionResult<IEnumerable<CartItemDto>>>GetItems(int userId)
+        public async Task<ActionResult<IEnumerable<CartItemDto>>> GetItems(int userId)
         {
             try
             {
                 var cartItems = await this.shoppingCartRepository.GetItems(userId);
                 
-                    if(cartItems==null)
+                    if(cartItems == null)
                     {
                     return NoContent();
                     }
                 var products = await this.productRepository.GetItems();
-                if (products==null)
+                if (products == null)
                 {
                     throw new Exception("No product exist in the system");
                 }
@@ -50,18 +50,18 @@ namespace ShopOnline.Api.Controllers
             }
         }
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<CartItemDto>>GetItem(int id)
+        public async Task<ActionResult<CartItemDto>> GetItem(int id)
 
         {
             try
             {
                 var cartItem = await this.shoppingCartRepository.GetItem(id);
-                if(cartItem==null)
+                if(cartItem == null)
                 {
                     return NotFound();
                 }
                 var product = await productRepository.GetItem(cartItem.ProductId);
-                if(product==null)
+                if(product == null)
                 {
                     return NotFound();
                 }
@@ -80,7 +80,7 @@ namespace ShopOnline.Api.Controllers
             try
             {
                 var newCartItem = await this.shoppingCartRepository.AddItem(cartItemToAddDto);
-                if(newCartItem==null)
+                if(newCartItem == null)
                 {
                     return NoContent();
                 }
@@ -99,7 +99,7 @@ namespace ShopOnline.Api.Controllers
             }
         }
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult<CartItemDto>>DeleteItem(int id)
+        public async Task<ActionResult<CartItemDto>> DeleteItem(int id)
         {
             try
             {
@@ -125,12 +125,13 @@ namespace ShopOnline.Api.Controllers
             }
         }
         [HttpPatch("{id:int}")]
-        public async Task<ActionResult<CartItemDto>> UpadateQty(int id, CartItemQtyUpdateDto cartItemQtyUpdateDto)
+        public async Task<ActionResult<CartItemDto>> UpadateQty(int id, [FromBody] CartItemQtyUpdateDto cartItemQtyUpdateDto)
+
         {
             try
             {
                 var cartItem = await this.shoppingCartRepository.UpdateQty(id, cartItemQtyUpdateDto);
-                if(cartItem==null)
+                if(cartItem == null)
                 {
                     return NotFound();
                 }

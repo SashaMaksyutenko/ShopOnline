@@ -1,14 +1,24 @@
 ﻿<Properties StartupConfiguration="shop_online">
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Web/Pages/ShoppingCart.razor">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="shop_online" Name="shop_online">
+      <Items>
+        <StartupItem ItemId="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}" ItemName="ShopOnline.Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{FDD70938-928A-4E52-A788-B77AE21227C0}" ItemName="ShopOnline.Web" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="ShopOnline.Web/Pages/ShoppingCartBase.cs" Line="101" Column="44" />
-      <File FileName="ShopOnline.Web/Services/ShoppingCartService.cs" Line="71" Column="72" />
-      <File FileName="ShopOnline.Web/wwwroot/index.html" Line="1" Column="1" />
-      <File FileName="ShopOnline.Web/wwwroot/js/ShoppingCartFunctions.js" Line="1" Column="1" />
-      <File FileName="ShopOnline.Api/Repositories/ShoppingCartRepository.cs" Line="46" Column="1" />
-      <File FileName="ShopOnline.Web/Pages/ShoppingCart.razor" Line="1" Column="1" />
+      <File FileName="ShopOnline.Web/wwwroot/index.html" Line="26" Column="138" />
+      <File FileName="ShopOnline.Api/Controllers/ShoppingCartController.cs" Line="124" Column="1" />
+      <File FileName="ShopOnline.Models/Dtos/ProductDto.cs" Line="1" Column="1" />
+      <File FileName="ShopOnline.Web/HardCoded.cs" Line="1" Column="1" />
+      <File FileName="ShopOnline.Web/Pages/DisplayProductsBase.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,22 +26,16 @@
           <Node name="ShopOnlineSolution" expanded="True">
             <Node name="ShopOnline.Api" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Extensions" expanded="True" />
               <Node name="Repositories" expanded="True">
                 <Node name="Contracts" expanded="True" />
               </Node>
             </Node>
-            <Node name="ShopOnline.Models" expanded="True" />
+            <Node name="ShopOnline.Models" expanded="True">
+              <Node name="Dtos" expanded="True" />
+            </Node>
             <Node name="ShopOnline.Web" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="ShoppingCart.razor" expanded="True" />
-              </Node>
-              <Node name="Services" expanded="True">
-                <Node name="Contracts" expanded="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
-              </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -41,18 +45,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <Debugger.DebugSourceFolders />
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="shop_online" Name="shop_online">
-      <Items>
-        <StartupItem ItemId="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}" ItemName="ShopOnline.Api" ConfigurationId="Default" />
-        <StartupItem ItemId="{FDD70938-928A-4E52-A788-B77AE21227C0}" ItemName="ShopOnline.Web" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
 </Properties>

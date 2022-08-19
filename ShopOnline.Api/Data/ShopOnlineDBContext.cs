@@ -6,13 +6,13 @@ using ShopOnline.Api.Data;
 
 namespace ShopOnline.Api.Data
 {
-    public class ShopOnlineDBContext:DbContext
+    public class ShopOnlineDBContext: DbContext
     {
-        public ShopOnlineDBContext (DbContextOptions<ShopOnlineDBContext> options):base(options)
+        public ShopOnlineDBContext (DbContextOptions<ShopOnlineDBContext> options) : base(options)
         {
                
         }
-       protected override void OnModelCreating (ModelBuilder modelBuilder)
+       protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
             //Products
@@ -319,4 +319,5 @@ namespace ShopOnline.Api.Data
 
     }
 }
+
 

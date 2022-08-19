@@ -1,5 +1,4 @@
-﻿using System;
-namespace ShopOnline.Web
+﻿namespace ShopOnline.Web
 {
     public class HardCoded
     {

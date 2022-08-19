@@ -1,4 +1,5 @@
-﻿using ShopOnline.Api.Data;
+﻿
+using ShopOnline.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using ShopOnline.Api.Repositories;
 using Microsoft.Net.Http.Headers;
@@ -22,7 +23,7 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    //app.UseHsts();
+    app.UseHsts();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
