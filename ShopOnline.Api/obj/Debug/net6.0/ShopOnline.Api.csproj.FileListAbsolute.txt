@@ -66,3 +66,10 @@
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/obj/Debug/net6.0/ShopOnline.Api.pdb
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/obj/Debug/net6.0/ShopOnline.Api.genruntimeconfig.cache
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/obj/Debug/net6.0/ref/ShopOnline.Api.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugHost.runtimeconfig.json
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/BlazorDebugProxy/BrowserDebugProxy.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.CSharp.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/BlazorDebugProxy/Microsoft.CodeAnalysis.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/BlazorDebugProxy/Newtonsoft.Json.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/bin/Debug/net6.0/Microsoft.AspNetCore.Components.WebAssembly.Server.dll

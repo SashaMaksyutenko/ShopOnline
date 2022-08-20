@@ -16,17 +16,24 @@ namespace ShopOnline.Web.Pages
         protected decimal PaymentAmount { get; set; }
         [Inject]
         public IShoppingCartService ShoppingCartService { get; set; }
+
+        protected string DisplayButtons { get; set; } = "block";
+
         protected override async void OnInitialized()
         {
             try
             {
                 ShoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
-                if(ShoppingCartItems!=null)
+                if(ShoppingCartItems != null && ShoppingCartItems.Count()>0)
                 {
                     Guid orderGuid = Guid.NewGuid();
                     PaymentAmount = ShoppingCartItems.Sum(p => p.TotalPrice);
                     TotalQty = ShoppingCartItems.Sum(p => p.Qty);
-                    PaymentDescription = $"Payment_{HardCoded.UserId}_{orderGuid}";
+                    PaymentDescription = $"Payment_ {HardCoded.UserId} _{orderGuid}";
+                }
+                else
+                {
+                    DisplayButtons = "none";
                 }
             }
             catch (Exception)
@@ -45,7 +52,7 @@ namespace ShopOnline.Web.Pages
             }
             catch (Exception)
             {
-
+                throw;
             }
         }
     }

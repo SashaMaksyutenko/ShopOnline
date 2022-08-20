@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "z/G1SIN2V8EzYdIeNepbimkTZpp6PtBlhbBOnsNrlo7lK9kjjyxRiiGVFFnekzMyb0q/Zq9B/HNuW7OcZu/XPg==",
+  "dgSpecHash": "FUMpPwabn198+vx5gcV/9oPTR7XPK/K4JbGBk/xE8Kpg7FzPIrKT5zReSehxNae32nOl85tjv6GkAI0gAGDazQ==",
   "success": true,
   "projectFilePath": "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Api/ShopOnline.Api.csproj",
   "expectedPackageFiles": [
     "/Users/sashamaksyutenko/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/sashamaksyutenko/.nuget/packages/microsoft.aspnetcore.components.webassembly.server/6.0.8/microsoft.aspnetcore.components.webassembly.server.6.0.8.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
