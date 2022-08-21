@@ -1,40 +1,27 @@
 ﻿<Properties StartupConfiguration="shop_online">
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="shop_online" Name="shop_online">
-      <Items>
-        <StartupItem ItemId="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}" ItemName="ShopOnline.Api" ConfigurationId="Default" />
-        <StartupItem ItemId="{FDD70938-928A-4E52-A788-B77AE21227C0}" ItemName="ShopOnline.Web" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Web/Shared/ProductCategoriesNavMenuBase.cs">
     <Files>
-      <File FileName="ShopOnline.Web/wwwroot/index.html" Line="26" Column="138" />
-      <File FileName="ShopOnline.Api/Controllers/ShoppingCartController.cs" Line="124" Column="1" />
-      <File FileName="ShopOnline.Models/Dtos/ProductDto.cs" Line="1" Column="1" />
-      <File FileName="ShopOnline.Web/HardCoded.cs" Line="1" Column="1" />
-      <File FileName="ShopOnline.Web/Pages/DisplayProductsBase.cs" Line="1" Column="1" />
+      <File FileName="ShopOnline.Web/Services/Contracts/IProductService.cs" Line="10" Column="70" />
+      <File FileName="ShopOnline.Web/Services/ProductService.cs" Line="89" Column="23" />
+      <File FileName="ShopOnline.Web/Shared/ProductCategoriesNavMenu.razor" Line="23" Column="6" />
+      <File FileName="ShopOnline.Web/Shared/ProductCategoriesNavMenuBase.cs" Line="19" Column="14" />
+      <File FileName="ShopOnline.Web/Shared/NavMenu.razor" Line="24" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShopOnlineSolution" expanded="True">
-            <Node name="ShopOnline.Api" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Repositories" expanded="True">
-                <Node name="Contracts" expanded="True" />
-              </Node>
-            </Node>
             <Node name="ShopOnline.Models" expanded="True">
               <Node name="Dtos" expanded="True" />
             </Node>
             <Node name="ShopOnline.Web" expanded="True">
-              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="MainLayout.razor" expanded="True" />
+                <Node name="NavMenu.razor" expanded="True" />
+              </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
@@ -45,7 +32,17 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <Debugger.DebugSourceFolders />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="shop_online" Name="shop_online">
+      <Items>
+        <StartupItem ItemId="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}" ItemName="ShopOnline.Api" ConfigurationId="Default" />
+        <StartupItem ItemId="{FDD70938-928A-4E52-A788-B77AE21227C0}" ItemName="ShopOnline.Web" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

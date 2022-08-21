@@ -1,11 +1,12 @@
 ﻿using System;
-namespace ShopOnline.Api.Entities
+namespace ShopOnline.Models.Dtos
 {
-    public class ProductCategory
+    public class ProductcategoryDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string IconCSS { get; set; }
+        
     }
 }
 

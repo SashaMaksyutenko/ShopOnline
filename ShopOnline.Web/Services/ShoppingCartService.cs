@@ -83,7 +83,7 @@ namespace ShopOnline.Web.Services
         }
         public void RaisedEventOnShoppingCartChanged(int totalQty)
         {
-            if(onShoppingCartChanged!=null)
+            if(onShoppingCartChanged != null)
             {
                 onShoppingCartChanged.Invoke(totalQty);
             }

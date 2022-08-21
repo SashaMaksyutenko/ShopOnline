@@ -7,6 +7,7 @@ using ShopOnline.Models.Dtos;
 using ShopOnline.Api.Extensions;
 
 using ShopOnline.Api.Repositories.Contracts;
+using System.Collections;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -63,6 +64,21 @@ namespace ShopOnline.Api.Controllers
                     return Ok(productDto);
 
                 }
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "error retrieving Data from the database");
+            }
+        }
+        [HttpGet]
+        [Route(nameof(GetProductCategories))]
+        public async Task<ActionResult<IEnumerable<ProductcategoryDto>>> GetProductCategories()
+        {
+            try
+            {
+                var productCategories = await productRepository.GetCategories();
+                var productCategoryDtos = productCategories.ConvertToDto();
+                return Ok(productCategoryDtos);
             }
             catch (Exception)
             {
