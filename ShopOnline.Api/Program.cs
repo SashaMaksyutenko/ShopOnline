@@ -1,7 +1,6 @@
 ﻿using ShopOnline.Api.Data;
 using Microsoft.EntityFrameworkCore;
 using ShopOnline.Api.Repositories;
-using Microsoft.Net.Http.Headers;
 using ShopOnline.Api.Repositories.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -41,7 +40,7 @@ else
     app.UseHsts();
 }
 
-app.UseAuthorization();
+
 app.UseCors("Open");
 
 
@@ -49,6 +48,7 @@ app.UseHttpsRedirection();
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseAuthorization();
 app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");

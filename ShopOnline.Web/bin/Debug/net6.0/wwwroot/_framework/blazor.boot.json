@@ -30,6 +30,8 @@
       "Microsoft.JSInterop.dll": "sha256-WobL+r2zwB5FBTgS20yduagPN9b5O9KB59h+n2+ONDo=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-kyP+B3x4SLKMAQWP1uHn9V4Q5p3r69HPLhs8C3yxGMU=",
       "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "PayPalCheckoutSdk.dll": "sha256-ommb65zHPYiyCq3JS88zKavQUUF59LtdwHbUB6TEQmw=",
+      "PayPalHttp-Dotnet.dll": "sha256-6F3hVqMr8z1zqqbx3RekxWv7vmp0jYr40wjjnuLXixc=",
       "System.IO.Pipelines.dll": "sha256-6+E55JXedimdw1c1bDtVg4K7XuWjVWVTifH8QpfzXSY=",
       "Microsoft.CSharp.dll": "sha256-Vo5Bb9oKq\/YrTGtwWhkxZbzLWoZKzjh+s6iqjyc9u4E=",
       "Microsoft.VisualBasic.Core.dll": "sha256-Cjnk9nhvTRWXb8mKeE9rfD87wFEF7Y78d3dLDbrTd58=",
@@ -197,15 +199,15 @@
       "mscorlib.dll": "sha256-TYLzIm125RbnX9+RAPqJnwZhd6CnQpJcrjiMpJfZ720=",
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
-      "ShopOnline.Models.dll": "sha256-mE0pVbNFtNykSys9\/efSPfLtF\/154D\/bjmOuKNOxzQM=",
-      "ShopOnline.Web.dll": "sha256-V6gRYjdpkGRY0ClyewnosJKFg43GK0jNsMaUGB8OwzI="
+      "ShopOnline.Models.dll": "sha256-ERZsdqMh4pk52BZzEXYN\/ePcRly\/kx2cSKyP0t0xVWw=",
+      "ShopOnline.Web.dll": "sha256-TLfjBzlJF4qx\/LNmAud8S+wWLxLWay9Yb+zVHyQNNsc="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "ShopOnline.Models.pdb": "sha256-ct86DbDzneOXpUXTm5uxZhw6m0luqOyFhchWFExl\/ZM=",
-      "ShopOnline.Web.pdb": "sha256-q+COjghYKl5cljEx7o3py7ZnK6GeX\/+S9G\/yN3J\/Fro="
+      "ShopOnline.Models.pdb": "sha256-mT2jxAtlyHcOR7BENeuCpQcEzHge5mozMB60ilM+iq4=",
+      "ShopOnline.Web.pdb": "sha256-SHIwkuw5bT6AV6jyJxIcL2c2wiXffJf2PKPR7NO0TM0="
     },
     "runtime": {
       "dotnet.6.0.8.1h7k4shumz.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

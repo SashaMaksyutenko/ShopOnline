@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using ShopOnline.Models.Dtos;
 using ShopOnline.Web.Services.Contracts;
 
 namespace ShopOnline.Web.Pages
 {
-    public class CheckOutBase:ComponentBase
+    public partial class CheckOut
     {
         [Inject]
         public IJSRuntime Js { get; set; }
@@ -19,12 +18,12 @@ namespace ShopOnline.Web.Pages
 
         protected string DisplayButtons { get; set; } = "block";
 
-        protected override async void OnInitialized()
+        protected override async Task<Task> OnInitializedAsync()
         {
             try
             {
                 ShoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
-                if(ShoppingCartItems != null && ShoppingCartItems.Count()>0)
+                if (ShoppingCartItems != null && ShoppingCartItems.Any())
                 {
                     Guid orderGuid = Guid.NewGuid();
                     PaymentAmount = ShoppingCartItems.Sum(p => p.TotalPrice);
@@ -40,17 +39,22 @@ namespace ShopOnline.Web.Pages
             {
                 throw;
             }
+            return base.OnInitializedAsync();
         }
         protected override async Task OnAfterRenderAsync(bool firstRender)
         {
             try
             {
-                if(firstRender)
+                if (firstRender)
                 {
-                    await Js.InvokeVoidAsync("initPayPalButton");
+                    var clientId = "ARyYhF8NJA8sbFk5-kV9FyffjvTPVJZp_30ePzohFbnW1gWawkO77r2QhCJRb6MGXEc-44XAgKo6xobK";
+                    var clientSecret = "EARIqCRHe-UDs3fKudEbJCL1Lkb-ndYW1gUZYdB11hbTfDu26hXjCKHKONEhEAsvAecaEZs74iGsK8Wn";
+                    var CurrencySign = "$";   // Get from a data store
+                    var currencyCode = "USD";
+                    await Js.InvokeVoidAsync("initPayPalButton", clientId, clientSecret, currencyCode, HardCoded.UserId);
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 throw;
             }

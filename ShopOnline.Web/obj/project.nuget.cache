@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1s8San0cJ+h4eUkPXt25MQ6y3YoM5ieWORH4/st78jy6ReX19kzSBs5VsMag2kGjnNRUG8h1IPAqqwNmOhegDg==",
+  "dgSpecHash": "MOHjPx/8KnwRz312u3a7GfLg+Pe7K5v+jUjyQOcUtKLp4MrArTYB6psjinfU0airHlm0xuAqQd2oqYmcW8zwbQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\ShopOnline.Web.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,8 @@
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\microsoft.jsinterop.6.0.8.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.8\\microsoft.jsinterop.webassembly.6.0.8.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\paypalcheckoutsdk\\1.0.4\\paypalcheckoutsdk.1.0.4.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\paypalhttp\\1.0.1\\paypalhttp.1.0.1.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PrqCKNJQH/2/6K4mfV5qVAb7XM2MXHhfy02iWD1y06A=",
+  "Hash": "/Gzgh2jF6/WfIYa7erJBVyayXjwrd6UzTm0AKquyjOk=",
   "Source": "ShopOnline.Api",
   "BasePath": "_content/ShopOnline.Api",
   "Mode": "Default",
@@ -724,6 +724,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalCheckoutSdk.dll",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/PayPalCheckoutSdk.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\paypalcheckoutsdk\\1.0.4\\lib\\netstandard2.0\\PayPalCheckoutSdk.dll"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalHttp-Dotnet.dll",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/PayPalHttp-Dotnet.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\paypalhttp\\1.0.1\\lib\\netstandard2.0\\PayPalHttp-Dotnet.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ShopOnline.Models.dll",
@@ -4908,6 +4942,23 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
     },
     {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\hW0x5NiA.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/PayPalHttp-Dotnet.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalHttp-Dotnet.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalHttp-Dotnet.dll"
+    },
+    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\I66dOQVZ.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Project",
@@ -5246,6 +5297,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.dll"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\lGz+taqX.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/PayPalCheckoutSdk.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalCheckoutSdk.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalCheckoutSdk.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\LHcOVHPL.gz",
@@ -7611,6 +7679,23 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\wwwroot\\js\\paypal.js",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/paypal.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\paypal.js"
+    },
+    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\wwwroot\\js\\ShoppingCartFunctions.js",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Project",
@@ -7643,6 +7728,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\wwwroot\\service-worker.js",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\service-worker.js"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\wwwroot\\service-worker.published.js",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "service-worker.published.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\service-worker.published.js"
     }
   ]
 }

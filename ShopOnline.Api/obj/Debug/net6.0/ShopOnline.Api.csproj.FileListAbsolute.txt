@@ -39,6 +39,8 @@ C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api\bin\Debug\net6.0\PayPalCheckoutSdk.dll
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api\bin\Debug\net6.0\PayPalHttp-Dotnet.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api\bin\Debug\net6.0\System.Drawing.Common.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Api\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

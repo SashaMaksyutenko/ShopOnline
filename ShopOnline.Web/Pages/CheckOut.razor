@@ -1,7 +1,8 @@
 ﻿@page "/CheckOut"
-@inherits CheckOutBase
+
 <h3 class="mb-5">CheckOut</h3>
 <div class="row">
+    <div id="paypal-button"></div>
     <div class="col-md-6" style="display:@DisplayButtons">
         <h4 class="mb-2">Payment Method</h4>
         <div id="smart-button-container">
@@ -19,34 +20,34 @@
     {
         <div class="col-md-6">
             <h4 class="mb-2">Payment Summary</h4>
-            @if (ShoppingCartItems.Count()>0)
-                {
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Product</th>
-                                <th>Price</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            @foreach(var item in ShoppingCartItems)
-                    {
+            @if (ShoppingCartItems.Count() > 0)
+            {
+                <table class="table">
+                    <thead>
                         <tr>
-                            <td>@item.Qty x @item.ProductName</td>
-                            <td>@item.TotalPrice.ToString("C")</td>
+                            <th>Product</th>
+                            <th>Price</th>
                         </tr>
-                    }
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ShoppingCartItems)
+                        {
                             <tr>
-                                <td><b>Total</b></td>
-                                <td><b>@PaymentAmount.ToString("C")</b></td>
+                                <td>@item.Qty x @item.ProductName</td>
+                                <td>@item.TotalPrice.ToString("C")</td>
                             </tr>
-                        </tbody>
-                    </table>
-                }
-                else
-                {
-                    <p>You currently have no Items in your ShoppingCart</p>
-                }
+                        }
+                        <tr>
+                            <td><b>Total</b></td>
+                            <td><b>@PaymentAmount.ToString("C")</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p>You currently have no Items in your ShoppingCart</p>
+            }
         </div>
     }
 </div>

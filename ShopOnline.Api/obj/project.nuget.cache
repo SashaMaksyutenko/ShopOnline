@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4NYgsLNHZ8y7A88t9aqgYOxVykG4rWsdhsIqiFVjyLLyfIO4fLbDBeAWDGayzQ0qJITan6VJMQ0Kx+ti5cl9fw==",
+  "dgSpecHash": "7p674yFoXpmGH/GRYsFWK7H125y7EGeNgsrlwO9qWahgNBy7OozrnF6n+sVjI/Wpk5LkmXsuE4YI9pbZ5vY1Rg==",
   "success": true,
   "projectFilePath": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Api\\ShopOnline.Api.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,8 @@
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\paypalcheckoutsdk\\1.0.4\\paypalcheckoutsdk.1.0.4.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\paypalhttp\\1.0.1\\paypalhttp.1.0.1.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

@@ -120,7 +120,6 @@ namespace ShopOnline.Api.Controllers
             catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-
             }
         }
 
@@ -141,7 +140,6 @@ namespace ShopOnline.Api.Controllers
             catch (Exception ex)
             {
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
-
             }
         }
     }

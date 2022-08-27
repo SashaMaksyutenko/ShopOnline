@@ -37,6 +37,8 @@ C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\PayPalCheckoutSdk.dll
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\PayPalHttp-Dotnet.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\ShopOnline.Models.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\ShopOnline.Models.pdb
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\ShopOnline.Web.dll
@@ -283,6 +285,7 @@ C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\PayPalHttp-Dotnet.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Net.Mail.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
@@ -303,6 +306,7 @@ C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\PayPalCheckoutSdk.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebClient.dll.gz
@@ -429,6 +433,8 @@ C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\Microsoft.JSInterop.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\PayPalCheckoutSdk.dll
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\PayPalHttp-Dotnet.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\Microsoft.CSharp.dll
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\bin\Debug\net6.0\Microsoft.VisualBasic.Core.dll
@@ -634,6 +640,8 @@ C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\obj\Debug\net6.0\build-gz\HmV4huLt.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\obj\Debug\net6.0\build-gz\NzpzJx59.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\obj\Debug\net6.0\build-gz\+pWpmq5y.gz
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\obj\Debug\net6.0\build-gz\lGz+taqX.gz
+C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\obj\Debug\net6.0\build-gz\hW0x5NiA.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\obj\Debug\net6.0\build-gz\aIiaPSax.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\obj\Debug\net6.0\build-gz\ADQfn62f.gz
 C:\Users\patri\OneDrive\Documents\GitHub\Visual Studio\ShopOnline\ShopOnline.Web\obj\Debug\net6.0\build-gz\ewzHB9Jv.gz
