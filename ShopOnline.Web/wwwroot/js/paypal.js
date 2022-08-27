@@ -10,9 +10,11 @@
             return fetch(`/api/paypal/checkout/order/create/${clientId}/${clientSecret}/${currencyCode}/${userId}`, {
                 method: 'post'
             }).then(function (res) {
+                //console.log(res)
                 return res.json();
             }).then(function (orderData) {
-                return orderData.id;
+                //console.log(orderData)
+                return orderData.orderID;
             });
         },
 
