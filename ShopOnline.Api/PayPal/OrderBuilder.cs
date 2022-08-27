@@ -38,7 +38,7 @@ namespace ShopOnline.Api.PayPal
                             AmountWithBreakdown = new AmountWithBreakdown
                             {
                                 CurrencyCode = Enum.Parse<CurrencyCode>(currencyCode, true).ToString(),
-                                Value = cartItems.Sum(p => p.TotalPrice).ToString(CultureInfo.InvariantCulture),//basket.Price.ToString(CultureInfo.InvariantCulture),
+                                Value = cartItems.Sum(p => p.TotalPrice).ToString(CultureInfo.InvariantCulture),
                                 AmountBreakdown = new AmountBreakdown
                                 {
                                     ItemTotal = new Money
