@@ -12,7 +12,13 @@ namespace ShopOnline.Web.Pages
         [Inject]
         public IShoppingCartService ShoppingCartService { get; set; }
 
-        public IEnumerable<ProductDto> ProductsItems { get; set; }
+        [Inject]
+        public IManageProductsLocalStorageService ManageProductsLocalStorageService { get; set; }
+
+        [Inject]
+        public IManageCartItemsLocalStorageService ManageCartItemsLocalStorageService { get; set; }
+
+        public IEnumerable<ProductDto> ProductList { get; set; }
 
         [Inject]
         public NavigationManager NavigationManager { get; set; }
@@ -23,10 +29,16 @@ namespace ShopOnline.Web.Pages
         {
             try
             {
-                ProductsItems = await ProductService.GetItems();
-                var shoppingCartItems = await ShoppingCartService.GetItems(HardCoded.UserId);
+                await ClearLocalStorage();
+
+                ProductList = await ManageProductsLocalStorageService.GetCollection();
+
+                var shoppingCartItems = await ManageCartItemsLocalStorageService.GetCollection();
+
                 var totalQty = shoppingCartItems.Sum(i => i.Qty);
-                ShoppingCartService.RaisedEventOnShoppingCartChanged(totalQty);
+
+                ShoppingCartService.RaiseEventOnShoppingCartChanged(totalQty);
+
             }
             catch (Exception ex)
             {
@@ -34,19 +46,26 @@ namespace ShopOnline.Web.Pages
 
             }
             return base.OnInitializedAsync();
+
         }
 
         protected IOrderedEnumerable<IGrouping<int, ProductDto>> GetGroupedProductsByCategory()
         {
-            return from product in ProductsItems
+            return from product in ProductList
                    group product by product.CategoryId into prodByCatGroup
                    orderby prodByCatGroup.Key
                    select prodByCatGroup;
         }
-
         protected string GetCategoryName(IGrouping<int, ProductDto> groupedProductDtos)
         {
             return groupedProductDtos.FirstOrDefault(pg => pg.CategoryId == groupedProductDtos.Key).CategoryName;
         }
+
+        private async Task ClearLocalStorage()
+        {
+            await ManageProductsLocalStorageService.RemoveCollection();
+            await ManageCartItemsLocalStorageService.RemoveCollection();
+        }
+
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r797q/SkhUlPnkrYdeF/Bes8GqhMv4L/mebDzDf/q9M=",
+  "Hash": "3XebFn3zu6Ga1L71Wm0cPOi80EHMUyQEwht93zB6RL8=",
   "Source": "ShopOnline.Web",
   "BasePath": "/",
   "Mode": "Root",
@@ -48,7 +48,24 @@
       "AssetTraitValue": "boot",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\build\\net6.0\\blazor.webassembly.js"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.1\\build\\net6.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\blazored.localstorage\\4.2.0\\lib\\net6.0\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.6.0.8.1h7k4shumz.js",
@@ -184,7 +201,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -201,7 +218,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -218,7 +235,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -235,7 +252,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -252,7 +269,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
@@ -269,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.1\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -473,7 +490,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -541,7 +558,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.jsinterop\\6.0.1\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -558,7 +575,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.8\\lib\\net6.0\\Microsoft.JSInterop.WebAssembly.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\microsoft.jsinterop.webassembly\\6.0.1\\lib\\net6.0\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.dll",
@@ -678,40 +695,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\newtonsoft.json\\13.0.1\\lib\\netstandard2.0\\Newtonsoft.Json.dll"
-    },
-    {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalCheckoutSdk.dll",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/PayPalCheckoutSdk.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\paypalcheckoutsdk\\1.0.4\\lib\\netstandard2.0\\PayPalCheckoutSdk.dll"
-    },
-    {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalHttp-Dotnet.dll",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/PayPalHttp-Dotnet.dll",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "runtime",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\paypalhttp\\1.0.1\\lib\\netstandard2.0\\PayPalHttp-Dotnet.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\ShopOnline.Models.dll",
@@ -1629,7 +1612,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\system.io.pipelines\\6.0.3\\lib\\net6.0\\System.IO.Pipelines.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\.nuget\\packages\\system.io.pipelines\\6.0.1\\lib\\net6.0\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.dll",
@@ -3536,6 +3519,23 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.Immutable.dll"
     },
     {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\+jtYn8F+.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
+    },
+    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\+P+EiEuN.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -4012,6 +4012,23 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Web.HttpUtility.dll"
     },
     {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\8sGn2h7F.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
+    },
+    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\93fd+TrP.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -4112,23 +4129,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll"
-    },
-    {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\aIiaPSax.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.IO.Pipelines.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipelines.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\aQzkvVGI.gz",
@@ -4250,23 +4250,6 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.dll"
     },
     {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\BqBwH1Vz.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\Brey7DDZ.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -4282,23 +4265,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Drawing.dll"
-    },
-    {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\CcP7oH8c.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/blazor.webassembly.js.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\CD4YEj6S.gz",
@@ -4862,23 +4828,6 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.dll"
     },
     {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\HmV4huLt.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
-    },
-    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\hPFeJxqp.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -4894,23 +4843,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
-    },
-    {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\hW0x5NiA.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/PayPalHttp-Dotnet.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalHttp-Dotnet.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalHttp-Dotnet.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\I66dOQVZ.gz",
@@ -4945,6 +4877,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.AccessControl.dll"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\I7uIYYvw.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\IAU5L0ck.gz",
@@ -5168,6 +5117,23 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.ResourceManager.dll"
     },
     {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\k2g73DHM.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\KsP1c9Eu.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -5251,23 +5217,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.dll"
-    },
-    {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\lGz+taqX.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/PayPalCheckoutSdk.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalCheckoutSdk.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PayPalCheckoutSdk.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\LHcOVHPL.gz",
@@ -5576,23 +5525,6 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.Serialization.dll"
     },
     {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\NzpzJx59.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
-    },
-    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\o+0+Kv3l.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -5625,23 +5557,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat"
-    },
-    {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\oEv+Be+E.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\ofahCXny.gz",
@@ -5795,6 +5710,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Ping.dll"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\PipmBfLP.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\pNIvx9cW.gz",
@@ -6001,23 +5933,6 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.dll"
     },
     {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\qgl+2RFK.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\qi8Yx6VX.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -6171,6 +6086,40 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Dynamic.Runtime.dll"
     },
     {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\R92pAnov.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\RgAGdeey.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/blazor.webassembly.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js"
+    },
+    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\RklAowyh.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -6205,23 +6154,6 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Memory.dll"
     },
     {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\RqeH85Lg.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
-    },
-    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\sC5LaSKD.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -6237,6 +6169,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Loader.dll"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\sDLfoKu9.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\seHYEEOK.gz",
@@ -6358,21 +6307,21 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.NonGeneric.dll"
     },
     {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\Url7Q0vf.gz",
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\UdnUbr8w.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\uRPRRAar.gz",
@@ -6409,21 +6358,21 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.Concurrent.dll"
     },
     {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\v2VFA8BL.gz",
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\Ut3+Ckf9.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\v3QaZo7D.gz",
@@ -6783,6 +6732,23 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Security.dll"
     },
     {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\YsyI2kMb.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
+    },
+    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\yWobx0PU.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -6885,23 +6851,6 @@
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.InteropServices.dll"
     },
     {
-      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\Z7xBleP7.gz",
-      "SourceId": "ShopOnline.Web",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
-    },
-    {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\zCLClxWZ.gz",
       "SourceId": "ShopOnline.Web",
       "SourceType": "Computed",
@@ -6934,6 +6883,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Debug.dll"
+    },
+    {
+      "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\ZgTxbh7L.gz",
+      "SourceId": "ShopOnline.Web",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Blazored.LocalStorage.dll"
     },
     {
       "Identity": "C:\\Users\\patri\\OneDrive\\Documents\\GitHub\\Visual Studio\\ShopOnline\\ShopOnline.Web\\obj\\Debug\\net6.0\\build-gz\\ZjaslIHb.gz",

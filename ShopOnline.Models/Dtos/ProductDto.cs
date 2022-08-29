@@ -1,4 +1,10 @@
-﻿namespace ShopOnline.Models.Dtos
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ShopOnline.Models.Dtos
 {
     public class ProductDto
     {
@@ -10,5 +16,6 @@
         public int Qty { get; set; }
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
+
     }
 }

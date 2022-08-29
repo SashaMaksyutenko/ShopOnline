@@ -1,8 +1,7 @@
-﻿@page "/CheckOut"
+﻿@page "/Checkout"
 
-<h3 class="mb-5">CheckOut</h3>
+<h3 class="mb-5">Checkout</h3>
 <div class="row">
-    <div id="paypal-button"></div>
     <div class="col-md-6" style="display:@DisplayButtons">
         <h4 class="mb-2">Payment Method</h4>
         <div id="smart-button-container">
@@ -11,7 +10,6 @@
             <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
         </div>
     </div>
-
     @if (ShoppingCartItems == null)
     {
         <DisplaySpinner />
@@ -46,7 +44,7 @@
             }
             else
             {
-                <p>You currently have no Items in your ShoppingCart</p>
+                <p>You currently have no items in your shopping cart</p>
             }
         </div>
     }

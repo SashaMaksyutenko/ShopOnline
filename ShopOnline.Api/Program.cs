@@ -1,11 +1,13 @@
-﻿using ShopOnline.Api.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Net.Http.Headers;
+using ShopOnline.Api.Data;
 using ShopOnline.Api.Repositories;
 using ShopOnline.Api.Repositories.Contracts;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContextPool<ShopOnlineDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineConnection")));
+builder.Services.AddDbContextPool<ShopOnlineDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineConnection")));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
 
@@ -23,7 +25,7 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    using var context = scope.ServiceProvider.GetService<ShopOnlineDBContext>();
+    using var context = scope.ServiceProvider.GetService<ShopOnlineDbContext>();
     context!.Database.EnsureCreated();
 }
 
@@ -40,7 +42,7 @@ else
     app.UseHsts();
 }
 
-
+app.UseAuthorization();
 app.UseCors("Open");
 
 
@@ -48,7 +50,6 @@ app.UseHttpsRedirection();
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 app.UseRouting();
-app.UseAuthorization();
 app.MapRazorPages();
 app.MapControllers();
 app.MapFallbackToFile("index.html");

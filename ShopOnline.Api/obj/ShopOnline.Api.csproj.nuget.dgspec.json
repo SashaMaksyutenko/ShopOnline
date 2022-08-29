@@ -201,26 +201,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Blazored.LocalStorage": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
-            },
-            "PayPalCheckoutSdk": {
-              "target": "Package",
-              "version": "[1.0.4, )"
-            },
-            "PayPalHttp": {
-              "target": "Package",
-              "version": "[1.0.1, )"
             }
           },
           "imports": [

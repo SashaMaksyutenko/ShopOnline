@@ -25,7 +25,7 @@ else
             </p>
             <div>
                 <button class="btn btn-success"
-                    @onclick="() => (AddToCart_Click(new Models.CartItemToAddDto{
+                    @onclick="() => (AddToCart_Click(new CartItemToAddDto{
                     CartId = HardCoded.CartId,
                     ProductId = Product.Id,
                     Qty = 1
@@ -34,5 +34,6 @@ else
                 </button>
             </div>
         </div>
+
     </div>
 }
