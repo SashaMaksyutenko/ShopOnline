@@ -921,3 +921,7 @@
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/ShopOnline.Web.pdb
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/ref/ShopOnline.Web.dll
 /Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/scopedcss/Shared/ProductCategoriesNavMenu.razor.rz.scp.css
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/wwwroot/_framework/Blazored.LocalStorage.dll.gz
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/bin/Debug/net6.0/Blazored.LocalStorage.dll
+/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/obj/Debug/net6.0/build-gz/j2jyQV0d.gz

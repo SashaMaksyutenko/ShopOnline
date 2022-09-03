@@ -6,9 +6,9 @@ using ShopOnline.Api.Data;
 
 namespace ShopOnline.Api.Data
 {
-    public class ShopOnlineDBContext: DbContext
+    public class ShopOnlineDbContext: DbContext
     {
-        public ShopOnlineDBContext (DbContextOptions<ShopOnlineDBContext> options) : base(options)
+        public ShopOnlineDbContext (DbContextOptions<ShopOnlineDbContext> options) : base(options)
         {
                
         }

@@ -7,10 +7,12 @@ using System.Text;
 
 namespace ShopOnline.Web.Services
 {
-    public class ShoppingCartService:IShoppingCartService
+    public class ShoppingCartService : IShoppingCartService
     {
         private readonly HttpClient httpClient;
         public event Action<int> onShoppingCartChanged;
+        public event Action<int> OnShoppingCartChanged;
+
         public ShoppingCartService(HttpClient httpClient)
         {
             this.httpClient = httpClient;
@@ -22,7 +24,7 @@ namespace ShopOnline.Web.Services
                 var response = await httpClient.PostAsJsonAsync<CartItemToAddDto>("api/ShoppingCart", cartItemToAddDto);
                     if (response.IsSuccessStatusCode)
                 {
-                    if (response.StatusCode==System.Net.HttpStatusCode.NoContent)
+                    if (response.StatusCode == System.Net.HttpStatusCode.NoContent)
                     {
                         return default(CartItemDto);
                     }
@@ -31,7 +33,7 @@ namespace ShopOnline.Web.Services
                 else
                 {
                     var message = await response.Content.ReadAsStringAsync();
-                    throw new Exception($"Http status: {response.StatusCode} Message: {message}");
+                    throw new Exception($"Http status:{response.StatusCode} Message -{message}");
                 }
             }
             catch (Exception)
@@ -73,7 +75,7 @@ namespace ShopOnline.Web.Services
                 else
                 {
                     var message = await response.Content.ReadAsStringAsync();
-                    throw new Exception($"Http Status Code: {response.StatusCode} Message: {message}");
+                    throw new Exception($"Http status code: {response.StatusCode} Message: {message}");
                 }
             }
             catch (Exception)
@@ -83,9 +85,9 @@ namespace ShopOnline.Web.Services
         }
         public void RaisedEventOnShoppingCartChanged(int totalQty)
         {
-            if(onShoppingCartChanged != null)
+            if(OnShoppingCartChanged != null)
             {
-                onShoppingCartChanged.Invoke(totalQty);
+                OnShoppingCartChanged.Invoke(totalQty);
             }
         }
         public async Task<CartItemDto> UpdateQty(CartItemQtyUpdateDto cartItemQtyUpdateDto)
@@ -104,6 +106,14 @@ namespace ShopOnline.Web.Services
             catch (Exception)
             {
                 throw;
+            }
+        }
+
+        public void RaiseEventOnShoppingCartChanged(int totalQty)
+        {
+            if (OnShoppingCartChanged != null)
+            {
+                OnShoppingCartChanged.Invoke(totalQty);
             }
         }
     }

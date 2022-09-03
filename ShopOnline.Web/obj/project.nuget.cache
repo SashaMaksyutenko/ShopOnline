@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "i1LrlQ0+5CSu0g3dvNwDyz3IET3kTEz2ldxz0fHyBcO/xv+3qBPPHegf37jKYh1FogXqqYJaZsd4hOLBU0gQwg==",
+  "dgSpecHash": "s+/3VB25lfIov0Tu+jqaJ6pbMVkBLUTZLf/goUD+JJnK061LI4dOxzaNroTMhw66z7TEae2T6gzr9HQ0nikltg==",
   "success": true,
   "projectFilePath": "/Users/sashamaksyutenko/Desktop/C# projects/Blazor_app1/Blazor_app2/ShopOnlineSolution/ShopOnline.Web/ShopOnline.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/sashamaksyutenko/.nuget/packages/blazored.localstorage/4.2.0/blazored.localstorage.4.2.0.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.aspnetcore.authorization/6.0.8/microsoft.aspnetcore.authorization.6.0.8.nupkg.sha512",
     "/Users/sashamaksyutenko/.nuget/packages/microsoft.aspnetcore.components/6.0.8/microsoft.aspnetcore.components.6.0.8.nupkg.sha512",

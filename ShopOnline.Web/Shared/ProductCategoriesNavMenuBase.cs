@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
 using ShopOnline.Models.Dtos;
 using ShopOnline.Web.Services.Contracts;
 
@@ -9,7 +8,7 @@ namespace ShopOnline.Web.Shared
     {
         [Inject]
         public IProductService ProductService { get; set;  }
-        public IEnumerable<ProductcategoryDto> ProductCategoryDtos { get; set; }
+        public IEnumerable<ProductCategoryDto> ProductCategoryDtos { get; set; }
         public string ErrorMessage { get; set; }
         protected override async Task OnInitializedAsync()
         {

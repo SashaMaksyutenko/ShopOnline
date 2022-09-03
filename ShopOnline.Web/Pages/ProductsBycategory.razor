@@ -1,7 +1,6 @@
-﻿@page "/ProductsByCategory/{CategoryId:int}"
-@inherits ProductsByCategoryBase
-
-@if (Products == null && ErrorMessage == null)
+﻿@page "/ProductsBycategory/{CategoryId:int}"
+@inherits ProductsByCategory 
+@if (ProductList == null && ErrorMessage == null)
     {
                 <DisplaySpinner/>
     }
@@ -12,8 +11,10 @@
     else
     {
         <h3>Products (@CategoryName)</h3>
-        @if(Products.Count()>0)
+        @if(ProductList.Count()>0)
                 {
-                    <DisplayProducts Products="@Products"></DisplayProducts>
+                <div class = "row mt-3">
+                    <DisplayProducts Products="@ProductList"></DisplayProducts>
+                </div>
                 }
     }

@@ -1,7 +1,7 @@
-﻿using System;
-using System.Net.Http.Json;
-using ShopOnline.Models.Dtos;
+﻿using ShopOnline.Models.Dtos;
 using ShopOnline.Web.Services.Contracts;
+using System.Net.Http.Json;
+
 
 namespace ShopOnline.Web.Services
 {
@@ -30,7 +30,7 @@ namespace ShopOnline.Web.Services
                 else
                 {
                     var message = await response.Content.ReadAsStringAsync();
-                    throw new Exception(message);
+                    throw new Exception($"Http status code: {response.StatusCode} message: {message}");
                 }
             }
             catch (Exception)
@@ -56,7 +56,7 @@ namespace ShopOnline.Web.Services
                     else
                 {
                     var message = await response.Content.ReadAsStringAsync();
-                    throw new Exception(message);
+                    throw new Exception($"Http status code: {response.StatusCode} message: {message}");
                 }
             }
             catch (Exception)
@@ -81,7 +81,7 @@ namespace ShopOnline.Web.Services
                 else
                 {
                     var message = response.Content.ReadAsStringAsync();
-                    throw new Exception($"http status code - {response.StatusCode} message - {message}");
+                    throw new Exception($"Http Status Code - {response.StatusCode} message - {message}");
                 }
             }
             catch (Exception)
@@ -90,23 +90,23 @@ namespace ShopOnline.Web.Services
             }
         }
 
-        public async Task<IEnumerable<ProductcategoryDto>> GetProductCategories()
+        public async Task<IEnumerable<ProductCategoryDto>> GetProductCategories()
         {
             try
             {
                 var response = await httpClient.GetAsync("api/Product/GetProductCategories");
                 if(response.IsSuccessStatusCode)
                 {
-                    if(response.StatusCode==System.Net.HttpStatusCode.NoContent)
+                    if(response.StatusCode == System.Net.HttpStatusCode.NoContent)
                     {
-                        return Enumerable.Empty<ProductcategoryDto>();
+                        return Enumerable.Empty<ProductCategoryDto>();
                     }
-                    return await response.Content.ReadFromJsonAsync<IEnumerable<ProductcategoryDto>>();
+                    return await response.Content.ReadFromJsonAsync<IEnumerable<ProductCategoryDto>>();
                 }
                 else
                 {
                     var message = response.Content.ReadAsStringAsync();
-                    throw new Exception($"http status code - {response.StatusCode} message - {message}");
+                    throw new Exception($"Http Status Code - {response.StatusCode} Message - {message}");
                 }
             }
             catch (Exception)

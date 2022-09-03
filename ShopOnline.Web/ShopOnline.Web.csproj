@@ -19,6 +19,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Blazored.LocalStorage" Version="4.2.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -28,6 +29,7 @@
     <None Remove="Services\" />
     <None Remove="Services\Contracts\" />
     <None Remove="Newtonsoft.Json" />
+    <None Remove="Blazored.LocalStorage" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Services\" />

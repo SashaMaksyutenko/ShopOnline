@@ -1,7 +1,5 @@
-﻿<Properties StartupConfiguration="shop_online">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+﻿<Properties StartupConfiguration="{FDD70938-928A-4E52-A788-B77AE21227C0}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="shop_online" Name="shop_online">
       <Items>
@@ -10,31 +8,22 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <Debugger.DebugSourceFolders />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Web/Shared/ProductCategoriesNavMenu.razor.css">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Web/Shared/NavMenu.razor">
     <Files>
-      <File FileName="ShopOnline.Web/Services/Contracts/IProductService.cs" Line="10" Column="70" />
-      <File FileName="ShopOnline.Web/Services/ProductService.cs" Line="89" Column="23" />
-      <File FileName="ShopOnline.Web/Shared/ProductCategoriesNavMenu.razor" Line="23" Column="6" />
-      <File FileName="ShopOnline.Web/Shared/ProductCategoriesNavMenuBase.cs" Line="19" Column="14" />
-      <File FileName="ShopOnline.Web/Shared/NavMenu.razor" Line="24" Column="15" />
-      <File FileName="ShopOnline.Web/Shared/ProductCategoriesNavMenu.razor.css" Line="42" Column="1" />
-      <File FileName="ShopOnline.Web/Shared/NavMenu.razor.css" Line="57" Column="1" />
+      <File FileName="ShopOnline.Api/Repositories/Contracts/IProductRepository.cs" Line="11" Column="63" />
+      <File FileName="ShopOnline.Api/Repositories/ProductRepository.cs" Line="45" Column="29" />
+      <File FileName="ShopOnline.Web/Pages/ProductsBycategory.razor" Line="19" Column="6" />
+      <File FileName="ShopOnline.Web/Pages/DisplayProducts.razor" Line="1" Column="1" />
+      <File FileName="ShopOnline.Web/Shared/NavMenu.razor" Line="38" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ShopOnlineSolution" expanded="True">
-            <Node name="ShopOnline.Models" expanded="True">
-              <Node name="Dtos" expanded="True" />
-            </Node>
+            <Node name="ShopOnline.Api" expanded="True" />
             <Node name="ShopOnline.Web" expanded="True">
-              <Node name="Shared" expanded="True">
-                <Node name="MainLayout.razor" expanded="True" />
-                <Node name="NavMenu.razor" expanded="True" />
-                <Node name="ProductCategoriesNavMenu.razor" expanded="True" />
-              </Node>
+              <Node name="Shared" selected="True" />
             </Node>
           </Node>
         </State>
@@ -44,7 +33,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <Debugger.DebugSourceFolders />
 </Properties>

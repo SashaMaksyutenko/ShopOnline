@@ -1,9 +1,8 @@
 ﻿
-using ShopOnline.Api.Data;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Components.WebAssembly.Server;
-using ShopOnline.Api.Repositories;
 using Microsoft.Net.Http.Headers;
+using ShopOnline.Api.Data;
+using ShopOnline.Api.Repositories;
 using ShopOnline.Api.Repositories.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,7 +12,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContextPool<ShopOnlineDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineConnection")));
+builder.Services.AddDbContextPool<ShopOnlineDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ShopOnlineConnection")));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IShoppingCartRepository, ShoppingCartRepository>();
 

@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
+
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ShopOnline.Models.Dtos;
 using ShopOnline.Api.Extensions;
-
 using ShopOnline.Api.Repositories.Contracts;
-using System.Collections;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,7 +12,7 @@ namespace ShopOnline.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : Controller
+    public class ProductController : ControllerBase
     {
         private readonly IProductRepository productRepository;
 
@@ -29,21 +26,21 @@ namespace ShopOnline.Api.Controllers
             try
             {
                 var products = await this.productRepository.GetItems();
-                var productCategories = await this.productRepository.GetCategories();
-                if (products == null || productCategories == null)
+                if (products == null)
                 {
                     return NotFound();
                 }
                 else
                 {
-                    var productDtos = products.ConvertToDto(productCategories);
+                    var productDtos = products.ConvertToDto();
                     return Ok(productDtos);
 
                 }
             }
             catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "error retrieving Data from the database");
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "error retrieving Data from the database");
             }
         }
         [HttpGet("{id:int}")]
@@ -59,20 +56,20 @@ namespace ShopOnline.Api.Controllers
                 }
                 else
                 {
-                    var productСategory = await this.productRepository.GetCategory(product.CategoryId);
-                    var productDto = product.ConvertToDto(productСategory);
+                    var productDto = product.ConvertToDto();
                     return Ok(productDto);
 
                 }
             }
             catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "error retrieving Data from the database");
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "error retrieving Data from the database");
             }
         }
         [HttpGet]
         [Route(nameof(GetProductCategories))]
-        public async Task<ActionResult<IEnumerable<ProductcategoryDto>>> GetProductCategories()
+        public async Task<ActionResult<IEnumerable<ProductCategoryDto>>> GetProductCategories()
         {
             try
             {
@@ -86,19 +83,19 @@ namespace ShopOnline.Api.Controllers
             }
         }
         [HttpGet]
-        [Route("{categoryId}/GetItemsBycategory")]
-        public async Task<ActionResult<IEnumerable<ProductDto>>>GetItemsBycategory (int categoryId)
+        [Route("{categoryId}/GetItemsByCategory")]
+        public async Task<ActionResult<IEnumerable<ProductDto>>>GetItemsByCategory (int categoryId)
         {
             try
             {
                 var products = await productRepository.GetItemsByCategory(categoryId);
-                var productCategories = await productRepository.GetCategories();
-                var productDtos = products.ConvertToDto(productCategories);
+                var productDtos = products.ConvertToDto();
                 return Ok(productDtos);
             }
             catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError, "error retrieving Data from the database");
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "error retrieving Data from the database");
 
             }
         }
