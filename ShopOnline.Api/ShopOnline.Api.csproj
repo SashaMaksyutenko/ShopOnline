@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ShopOnline.Web' " />
   <ItemGroup>
     <None Remove="Entities\" />
     <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
@@ -44,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ShopOnline.Models\ShopOnline.Models.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\ShopOnline.Web\ShopOnline.Web.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
