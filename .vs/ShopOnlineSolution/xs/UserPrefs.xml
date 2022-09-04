@@ -1,29 +1,11 @@
 ﻿<Properties StartupConfiguration="shop_online">
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="shop_online" Name="shop_online">
-      <Items>
-        <StartupItem ItemId="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}" ItemName="ShopOnline.Api" ConfigurationId="Default" />
-        <StartupItem ItemId="{FDD70938-928A-4E52-A788-B77AE21227C0}" ItemName="ShopOnline.Web" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <Debugger.DebugSourceFolders />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ShopOnline.Web/Pages/ShoppingCart.cs">
-    <Files>
-      <File FileName="ShopOnline.Web/Pages/ShoppingCart.cs" Line="16" Column="17" />
-      <File FileName="ShopOnline.Web/Services/ProductService.cs" Line="26" Column="31" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ShopOnlineSolution" expanded="True" />
+          <Node name="ShopOnlineSolution" expanded="True">
+            <Node name="ShopOnline.Web" expanded="True" />
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -31,4 +13,19 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Web PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
+  <MonoDevelop.Ide.ItemProperties.ShopOnline.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="shop_online" Name="shop_online">
+      <Items>
+        <StartupItem ItemId="{073BE03C-1EB8-4EF2-8879-A2DD25DCE893}" ItemName="ShopOnline.Api" ConfigurationId="ShopOnline.Web" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
